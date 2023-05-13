@@ -7,6 +7,7 @@ I am using [PM2](https://pm2.keymetrics.io/) to run my next.js as a NPM script i
 ### PM2 (Deployment)
 - Kill existing process `pm2 stop grahamrowe.dev`
 - Pull in the new changes from this repo
+- Run `npm run build` to build a production ready thingy
 - Start the process `pm2 start npm --name "grahamrowe.dev" -- start`
 
 
